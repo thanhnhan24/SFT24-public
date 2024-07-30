@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load the YOLOv8 model
-model = YOLO("F:/Code/Python/YOLO_SFT24/runs/detect/train11/weights/best.pt")
+model = YOLO("F:/Code/Python/YOLO_SFT24/runs/detect/train13_x_100_10/weights/best.pt")
 
 # Open the video file
 video_path = 0
